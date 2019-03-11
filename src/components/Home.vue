@@ -43,18 +43,6 @@
     encrypted: true
   })
 
-  // const socket = new Pusher('APP_KEY', {
-  //   cluster: 'YOUR CLUSTER',
-  //   encrypted: true
-  // })
-
-//   var pusher = new Pusher({
-//   appId: '733283',
-//   key: 'ca7ab5c69d086e8b9bee',
-//   secret: 'ec46a906793ed731deda',
-//   cluster: 'us3',
-//   encrypted: true
-// });
   const channel = socket.subscribe('finance')
 
   export default {
